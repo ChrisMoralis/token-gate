@@ -1,0 +1,18 @@
+{
+  "name": "moralis-token-gating-server",
+  "author": "Yoseph Kurnia Soenggoro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "moralis": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
