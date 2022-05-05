@@ -14,15 +14,5 @@ app.use(express.urlencoded({ extended: true }));
 app.post("/secret", routes.secret);
 
 app.listen(port, () => {
-  if (
-    process.env.MORALIS_APP_ID &&
-    process.env.MORALIS_SERVER_URL &&
-    process.env.MORALIS_MASTER_KEY
-  ) {
-    console.log(`Listening on port ${port}`);
-  } else {
-    throw new Error(
-      "Failed to start Token Gating Server: No Moralis environment variables found!"
-    );
-  }
+  console.log("listening");
 });
