@@ -9,9 +9,9 @@ const secret = async (req, res) => {
   try {
     // Initialize Moralis
     await Moralis.start({
-      appId: process.env.MORALIS_APP_ID,
-      serverUrl: process.env.MORALIS_SERVER_URL,
-      masterKey: process.env.MORALIS_MASTER_KEY,
+      appId: "uyAKLRxIEZlJBYRpBEH9d5KXZZfWcpff1uVitdOB",
+      serverUrl: "https://clcnpidf7osz.usemoralis.com:2053/server",
+      masterKey: "l3s7o65q03rhgBZBzTuV0BhjRDI37ZSGPAQbCIpu",
     });
 
     // Query Session From DB
